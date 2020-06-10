@@ -80,6 +80,9 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.8.3)
       concurrent-ruby (~> 1.0)
+    i18n_generators (2.2.2)
+      activerecord (>= 3.0.0)
+      railties (>= 3.0.0)
     jbuilder (2.10.0)
       activesupport (>= 5.0.0)
     listen (3.2.1)
@@ -203,6 +206,7 @@ DEPENDENCIES
   bootsnap
   byebug
   capybara
+  i18n_generators
   jbuilder
   listen
   pg

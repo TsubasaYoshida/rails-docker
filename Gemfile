@@ -21,6 +21,7 @@ group :development do
   gem 'listen'
   gem 'spring'
   gem 'spring-watcher-listen'
+  gem 'i18n_generators'
 end
 
 group :test do
