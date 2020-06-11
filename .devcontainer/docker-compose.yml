@@ -5,3 +5,6 @@ services:
       - .:/workspace:cached
       - ~/.ssh:/root/.ssh
     command: /bin/sh -c "while sleep 1000; do :; done"
+  db:
+    ports:
+      - "5433:5432"
