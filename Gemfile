@@ -11,6 +11,7 @@ gem 'webpacker'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'bootsnap', require: false
+gem 'hamlit-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
