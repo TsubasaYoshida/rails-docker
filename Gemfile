@@ -15,6 +15,8 @@ gem 'hamlit-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
 end
 
 group :development do
@@ -23,6 +25,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen'
   gem 'i18n_generators'
+  gem 'spring-commands-rspec'
 end
 
 group :test do
