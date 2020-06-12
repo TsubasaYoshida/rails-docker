@@ -27,6 +27,7 @@ group :development do
   gem 'spring-watcher-listen'
   gem 'i18n_generators'
   gem 'spring-commands-rspec'
+  gem 'rubocop'
 end
 
 group :test do
